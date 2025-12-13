@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://Mandava-Kamal-09.github.io/al-folio/sitemap.xml
