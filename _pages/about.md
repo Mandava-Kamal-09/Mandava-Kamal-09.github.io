@@ -2,17 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Graduate Student</a>. University of Central Oklahoma.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: prof_pic.jpg # You need to upload your photo to assets/img/ and name it prof_pic.jpg
+  image_circular: false # set to true if you want a round photo
+  address: >
+    <p>University of Central Oklahoma</p>
+    <p>Edmond, OK 73034</p>
 
+news: true # includes a list of news items
+selected_papers: false # set to true once you have your papers in _bibliography/papers.bib
+social: true # includes social icons at the bottom of the page
+---
+
+I am a graduate student in **Data Science** at the University of Central Oklahoma with a **Bachelor of Technology in Biotechnology**. My background bridges the gap between life sciences and computational analysis.
+
+I am an **aspiring Ph.D. candidate in Computer Science (Fall 2026)**, passionate about interdisciplinary research at the intersection of:
+* **Computer Science** (Agent-Based Modeling, Machine Learning)
+* **Applied Mathematics** (Non-linear Dynamics)
+* **Computational Physics** (Soft Matter, Biophysics)
+
+My current research focuses on the **Computational Modeling of Fibrinolysis** (blood clot degradation). I am working under the supervision of **[Dr. Brittany Bannish](https://www3.uco.edu/centraldirectory/profiles/828858)** on an NSF-funded project to simulate the stochastic behavior of enzyme diffusion and fiber network collapse.
+
+### 🔬 Current Research Projects
+
+**1. FibriNet (Agent-Based Model)**
+Building a computational framework (Python) to model the mechanical and structural properties of fibrin networks under stress.
+
+**2. Deep Learning for Chemical factors affecting Fibrinolysis**
+Utilizing **PyTorch** to train Artificial Neural Networks (ANN) on large-scale simulation datasets (2M+ observations) to predict clot lysis times based on chemical constraints.
+
+**3. Statistical Analysis of Clot Dynamics**
+Applied regression analysis to identify key chemical factors that inhibit or accelerate the fibrinolysis process.
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
