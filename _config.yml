@@ -16,7 +16,9 @@ footer_text: >
 
 keywords: data science, computational biology, fibrinolysis, agent-based modeling, phd-student # Added your keywords
 lang: en
-icon: ⚛️
+icon: 🧬
+
+
 
 url: https://Mandava-Kamal-09.github.io
 baseurl: ""  # IMPORTANT: I changed this to empty because this is your main website
