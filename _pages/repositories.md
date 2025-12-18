@@ -17,6 +17,12 @@ nav_order: 4
   {% endfor %}
 </div>
 
+<div class="text-center mt-3">
+  <a href="https://github.com/Mandava-Kamal-09" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+    <i class="fab fa-github"></i> View GitHub Profile
+  </a>
+</div>
+
 ---
 
 {% if site.repo_trophies.enabled %}
