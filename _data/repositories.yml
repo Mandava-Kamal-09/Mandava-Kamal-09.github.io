@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Mandava-Kamal-09
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Mandava-Kamal-09/Fibrinet
+  - Mandava-Kamal-09/Fibrnolysis-Regression
