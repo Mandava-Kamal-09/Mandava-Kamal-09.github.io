@@ -8,7 +8,7 @@ category: work
 github: https://github.com/Mandava-Kamal-09/Fibrinet
 ---
 
-FibriNet is an agent-based computational model that simulates the polymerization and network formation of fibrin fibers—the key structural component of blood clots. The framework models the mechanical and structural properties of fibrin networks under stress using a spring-mass system approach.
+FibriNet is an agent-based computational model that simulates the polymerization and network formation of fibrin fibers. The model represents fibrin networks using a spring-mass system approach.
 
 ## Methodology
 

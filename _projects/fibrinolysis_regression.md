@@ -8,7 +8,7 @@ category: work
 github: https://github.com/Mandava-Kamal-09/Fibrnolysis-Regression
 ---
 
-Multiple linear regression analysis predicting fibrinolysis rates from biochemical kinetic parameters. This project identifies key chemical factors that inhibit or accelerate the clot degradation process.
+Multiple linear regression analysis on biochemical kinetic parameters to examine factors affecting fibrinolysis rates.
 
 ## Methodology
 
