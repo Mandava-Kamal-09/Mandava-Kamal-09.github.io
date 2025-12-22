@@ -13,23 +13,22 @@
   contents:
     - title: Graduate Student, Data Science
       institution: University of Central Oklahoma, Edmond, OK
-      year: [YEAR_START] - Present
+      year: 2024 - Present
       description:
         - Research in computational modeling of stochastic biological systems
         - Focus on fibrinolysis and nonlinear dynamics
         - Advisor: Dr. Brittany Bannish
     - title: Bachelor of Technology, Biotechnology
-      institution: [INSTITUTION_NAME]
-      year: [YEAR]
-      description:
-        - [ADD_DETAILS_IF_RELEVANT]
+      institution: Lovely Professional University, Jalandhar, Punjab, India
+      year: 2020 - 2024
+      
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Graduate Research Assistant
       institution: University of Central Oklahoma, Edmond, OK
-      year: [YEAR_START] - Present
+      year: May 2025 - Present
       description:
         - Developing computational models of fibrinolysis using agent-based simulation
         - Building neural network models for predicting clot lysis times from biochemical constraints
@@ -40,10 +39,10 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/Mandava-Kamal-09/Fibrinet">FibriNet</a>
-      year: [YEAR_START] - Present
+      year: In Progress
       description: Agent-based computational model simulating polymerization and network formation of fibrin fibers using spring-mass systems.
     - title: <a href="https://github.com/Mandava-Kamal-09/Fibrnolysis-Regression">Fibrinolysis Regression Analysis</a>
-      year: [YEAR]
+      year: In Progress
       description: Multiple linear regression analysis predicting fibrinolysis rates from biochemical kinetic parameters.
 
 - title: Conference Presentations

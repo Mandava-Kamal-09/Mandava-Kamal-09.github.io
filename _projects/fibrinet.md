@@ -12,10 +12,7 @@ FibriNet is an agent-based computational model that simulates the polymerization
 
 ## Methodology
 
-The model represents fibrin networks as interconnected nodes connected by springs, allowing simulation of:
-- Network collapse under enzymatic attack
-- Mechanical response to stress
-- Structural degradation during fibrinolysis
+The model represents fibrin networks as interconnected nodes connected by springs.
 
 This work is part of an NSF-funded project under the supervision of Dr. Brittany Bannish at the University of Central Oklahoma.
 

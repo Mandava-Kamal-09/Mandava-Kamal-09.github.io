@@ -12,7 +12,7 @@ Multiple linear regression analysis predicting fibrinolysis rates from biochemic
 
 ## Methodology
 
-Applied regression analysis on experimental data to isolate significant variables affecting fibrinolysis dynamics. The analysis informs understanding of biochemical constraints on clot degradation.
+Applied regression analysis on experimental data to identify variables affecting fibrinolysis dynamics.
 
 ## Technical Details
 
