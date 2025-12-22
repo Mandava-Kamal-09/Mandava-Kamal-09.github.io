@@ -9,7 +9,7 @@ last_name: Mandava
 contact_note: >
   You can contact me via LinkedIn.
 description: >
-  Graduate Student in Data Science at UCO. Aspiring Ph.D. candidate researching Computational Modeling of Fibrinolysis and Non-linear Dynamics.
+  Graduate Student in Data Science at University of Central Oklahoma. Research focuses on computational modeling of stochastic biological systems, with emphasis on fibrinolysis and nonlinear dynamics.
 footer_text: >
 
 keywords: data science, computational biology, fibrinolysis, agent-based modeling, phd-student # Added your keywords
@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Mandava]
+  first_name: [Kamal, K.]
 
   style: apa
   locale: en

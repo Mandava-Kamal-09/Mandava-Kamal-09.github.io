@@ -2,96 +2,74 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Kamal Mandava
+    - name: Email
+      value: kmandava@uco.edu
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Graduate Student, Data Science
+      institution: University of Central Oklahoma, Edmond, OK
+      year: [YEAR_START] - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research in computational modeling of stochastic biological systems
+        - Focus on fibrinolysis and nonlinear dynamics
+        - Advisor: Dr. Brittany Bannish
+    - title: Bachelor of Technology, Biotechnology
+      institution: [INSTITUTION_NAME]
+      year: [YEAR]
       description:
-        - Description 1.
-        - Description 2.
+        - [ADD_DETAILS_IF_RELEVANT]
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: University of Central Oklahoma, Edmond, OK
+      year: [YEAR_START] - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Developing computational models of fibrinolysis using agent-based simulation
+        - Building neural network models for predicting clot lysis times from biochemical constraints
+        - Performing statistical analysis of chemical factors affecting fibrinolysis
+        - NSF-funded project under Dr. Brittany Bannish
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/Mandava-Kamal-09/Fibrinet">FibriNet</a>
+      year: [YEAR_START] - Present
+      description: Agent-based computational model simulating polymerization and network formation of fibrin fibers using spring-mass systems.
+    - title: <a href="https://github.com/Mandava-Kamal-09/Fibrnolysis-Regression">Fibrinolysis Regression Analysis</a>
+      year: [YEAR]
+      description: Multiple linear regression analysis predicting fibrinolysis rates from biochemical kinetic parameters.
 
-- title: Honors and Awards
+- title: Conference Presentations
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Dynamical Degradation of Fibrin Networks: A Spring-Mass Approach to Network Collapse Analysis
+      institution: Dynamics Days US 2026, Tucson, AZ
+      year: 2026
+      description:
+        - Poster presentation (Accepted)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computational Modeling
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Agent-based simulation
+        - Stochastic particle systems
+        - Network dynamics
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Deep learning (PyTorch)
+        - Neural networks for biological systems
+        - Statistical inference
+    - title: Applied Mathematics
+      items:
+        - Nonlinear dynamics
+        - Regression analysis
+        - Discrete event simulation
