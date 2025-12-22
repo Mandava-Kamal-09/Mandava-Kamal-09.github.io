@@ -6,7 +6,7 @@ subtitle: <a href='#'>Graduate Student</a>. University of Central Oklahoma.
 
 profile:
   align: right
-  image: prof_pic.jpg # You need to upload your photo to assets/img/ and name it prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # set to true if you want a round photo
   address: >
     <p>University of Central Oklahoma</p>
