@@ -11,16 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Graduate Student, Data Science
+    - title: M.S. Data Science
       institution: University of Central Oklahoma, Edmond, OK
-      year: 2024 - Present
-      description:
-        - Research in computational modeling of stochastic biological systems
-        - Focus on fibrinolysis and nonlinear dynamics
-        - Advisor: Dr. Brittany Bannish
-    - title: Bachelor of Technology, Biotechnology
+      year: Aug 2024 - May 2026
+    - title: B.Tech Biotechnology
       institution: Lovely Professional University, Jalandhar, Punjab, India
-      year: 2020 - 2024
+      year: May 2020 - June 2024
       
 
 - title: Research Experience
@@ -35,40 +31,50 @@
         - Performing statistical analysis of chemical factors affecting fibrinolysis
         - NSF-funded project under Dr. Brittany Bannish
 
-- title: Research Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/Mandava-Kamal-09/Fibrinet">FibriNet</a>
-      year: In Progress
-      description: Agent-based computational model simulating polymerization and network formation of fibrin fibers using spring-mass systems.
-    - title: <a href="https://github.com/Mandava-Kamal-09/Fibrnolysis-Regression">Fibrinolysis Regression Analysis</a>
-      year: In Progress
-      description: Multiple linear regression analysis predicting fibrinolysis rates from biochemical kinetic parameters.
-
-- title: Conference Presentations
-  type: time_table
-  contents:
-    - title: "Dynamical Degradation of Fibrin Networks: A Spring-Mass Approach to Network Collapse Analysis"
-      institution: Dynamics Days US 2026, Tucson, AZ
-      year: 2026
+    - title: Market Research Analyst
+      institution: TT Consultants
+      year: July 2023 - July 2024
       description:
-        - Poster presentation (Accepted)
+        - Analyzed clinical-trial datasets on NMIBC to identify trends for performance evaluation
+    - title: Independent STEM Tutor
+      institution: Course Hero
+      year: Winter 2023 - Present
+      description:
+        - Provided 700+ solutions in Bioengineering with a 90% helpfulness rating
+        - Profile: <a href="https://www.coursehero.com/profile/kamalmandava1234/">https://www.coursehero.com/profile/kamalmandava1234/</a>
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Computational Modeling
+    - title: Programming
       items:
-        - Agent-based simulation
-        - Stochastic particle systems
-        - Network dynamics
-    - title: Machine Learning
+        - Python
+        - R
+        - C++
+        - MATLAB
+        - Bash
+    - title: Modeling
       items:
-        - Deep learning (PyTorch)
-        - Neural networks for biological systems
-        - Statistical inference
-    - title: Applied Mathematics
+        - HPC (Buddy Cluster)
+        - Stochastic simulations
+
+- title: Academic Projects
+  type: time_table
+  contents:
+    - title: Neural Network Regression
+      year: In Progress
+      description: Trained neural networks on 2 million simulated trials
+    - title: Regression Analysis for Median Lysis
+      year: In Progress
+      description: Statistical analysis of median lysis times
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Research Focus
       items:
-        - Nonlinear dynamics
-        - Regression analysis
-        - Discrete event simulation
+        - Computational modeling of biological networks
+        - Machine learning for predicting emergent biological behavior
