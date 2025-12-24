@@ -20,5 +20,5 @@ This work is part of an NSF-funded project under the supervision of Dr. Brittany
 
 - **Language**: Python
 - **Approach**: Agent-based modeling, discrete event simulation
-- **Application**: Computational biology, biophysics
+- **Application**: Modelling and simulation, Computational biology, biophysics, biomechanics
 

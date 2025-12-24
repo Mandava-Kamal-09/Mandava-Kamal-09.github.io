@@ -16,7 +16,7 @@ Applied regression analysis on experimental data to identify variables affecting
 
 ## Technical Details
 
-- **Language**: Python
-- **Methods**: Multiple linear regression, statistical inference
+- **Language**: R Code
+- **Methods**: Multiple linear regression, statistical inference(s)
 - **Application**: Computational biology, data analysis
 

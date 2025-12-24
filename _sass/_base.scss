@@ -703,7 +703,7 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: #000000 !important;
+    color: var(--global-text-color) !important;
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -735,7 +735,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: #000000 !important;
+    color: var(--global-text-color) !important;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -783,7 +783,7 @@ footer.sticky-bottom {
       }
 
       .periodical {
-        color: #000000 !important;
+        color: var(--global-text-color) !important;
         font-weight: normal;
       }
 
