@@ -11,12 +11,13 @@ nav_order: 3
 
 An interactive R Shiny application for comprehensive statistical analysis—from exploratory data visualization to advanced regression diagnostics and time series forecasting.
 
-<div class="embed-responsive" style="position: relative; width: 100%; height: 800px; border: 1px solid var(--global-divider-color); border-radius: 8px; overflow: hidden; margin: 1.5rem 0;">
+<div class="embed-responsive" style="position: relative; width: 100vw; max-width: calc(100vw - 40px); height: 900px; border: 1px solid var(--global-divider-color); border-radius: 8px; overflow: hidden; margin: 1.5rem 0; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);">
   <iframe 
     src="https://kamaluco.shinyapps.io/Awesome_Statistics_Dashboard/" 
     style="width: 100%; height: 100%; border: none;"
     title="Awesome Statistics Dashboard"
-    loading="lazy">
+    loading="lazy"
+    allow="fullscreen">
   </iframe>
 </div>
 
