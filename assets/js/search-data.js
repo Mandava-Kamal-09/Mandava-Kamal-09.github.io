@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-tools",
+          title: "Tools",
+          description: "Interactive statistical analysis tools and dashboards.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/tools/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "Computational modeling and data analysis projects.",
@@ -44,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-project-initiation-fibrinet-and-mechanistic-modeling",
+        },{id: "post-building-the-awesome-statistics-dashboard-an-academic-journey",
+        
+          title: "Building the Awesome Statistics Dashboard: An Academic Journey",
+        
+        description: "How two mentors shaped this interactive statistical analysis tool—one taught me regression rigor, the other showed me how to make it visual.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/awesome-stats-dashboard/";
+          
+        },
+      },{id: "post-project-initiation-fibrinet-and-mechanistic-modeling",
         
           title: "Project Initiation: FibriNet and Mechanistic Modeling",
         
@@ -63,7 +81,12 @@ ninja.data = [{
             },},{id: "news-accepted-to-present-dynamical-degradation-of-fibrin-networks-at-dynamics-days-us-2026-in-tucson-az",
           title: 'Accepted to present “Dynamical Degradation of Fibrin Networks” at Dynamics Days US 2026...',
           description: "",
-          section: "News",},{id: "projects-fibrinet",
+          section: "News",},{id: "projects-awesome-statistics-dashboard",
+          title: 'Awesome Statistics Dashboard',
+          description: "Interactive R Shiny dashboard for regression diagnostics, model selection, and statistical visualization",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/awesome-stats-dashboard/";
+            },},{id: "projects-fibrinet",
           title: 'FibriNet',
           description: "Agent-based computational model for simulating fibrinolysis using spring-mass network dynamics",
           section: "Projects",handler: () => {
