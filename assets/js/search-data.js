@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Building the Awesome Statistics Dashboard: An Academic Journey",
         
-        description: "How two mentors shaped this interactive statistical analysis tool—one taught me regression rigor, the other showed me how to make it visual.",
+        description: "How two UCO mentors shaped this interactive statistical analysis tool—one taught me regression rigor, the other showed me how to make it visual.",
         section: "Posts",
         handler: () => {
           
