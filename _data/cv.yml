@@ -69,6 +69,9 @@
     - title: Regression Analysis for Median Lysis
       year: In Progress
       description: Statistical analysis of median lysis times
+    -title: Awesome Statistics Dashboard
+      year: Dec 2025
+      description: A comprehensive R shiny Dashboard for Advanced Regression Analysis Techniques and Tools.
 
 - title: Research Interests
   type: nested_list
