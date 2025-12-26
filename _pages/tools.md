@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Awesome Statistics Dashboard
 
-An interactive R Shiny application for comprehensive statistical analysis—from exploratory data visualization to advanced regression diagnostics and time series forecasting.
+An interactive R Shiny app for end-to-end statistical analysis—from exploratory data visualization to regression diagnostics and time series forecasting. Built during my UCO graduate studies to make analysis efficient and accessible.
 
 <div class="embed-responsive" style="position: relative; width: 100vw; max-width: calc(100vw - 40px); height: 900px; border: 1px solid var(--global-divider-color); border-radius: 8px; overflow: hidden; margin: 1.5rem 0; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);">
   <iframe 
@@ -36,6 +36,8 @@ The dashboard comes with **three built-in datasets** ready for exploration:
 | **Boston** | MASS | Housing price prediction |
 
 Or upload your own **CSV file** for custom analysis.
+**Please make sure that all observations and variables are arranged in an ordered manner in the uploading csv file**
+
 
 ### 2. Select Model Type
 
