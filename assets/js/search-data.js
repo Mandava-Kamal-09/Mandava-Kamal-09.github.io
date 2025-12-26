@@ -51,11 +51,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-building-the-awesome-statistics-dashboard-an-academic-journey",
+        },{id: "post-building-the-awesome-statistics-dashboard",
         
-          title: "Building the Awesome Statistics Dashboard: An Academic Journey",
+          title: "Building the Awesome Statistics Dashboard",
         
-        description: "How two UCO mentors shaped this interactive statistical analysis tool—one taught me regression rigor, the other showed me how to make it visual.",
+        description: "A Statistical tool for researchers and students Community with advanced Regression Analysis Techniques and Tools",
         section: "Posts",
         handler: () => {
           
