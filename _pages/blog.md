@@ -19,8 +19,8 @@ pagination:
 <div class="post">
 
   <div class="header-bar">
-    <h1>Research & Technical Insights</h1>
-    <h2>A collection of summaries, technical notes, and updates regarding my work in computational biophysics and data science.</h2>
+    <h2 style="font-size: 1.75rem; font-weight: 500; margin-bottom: 0.5rem;">Research & Technical Insights</h2>
+    <p class="text-muted" style="font-size: 1rem; margin-top: 0;">A collection of summaries, technical notes, and updates regarding my work in computational biophysics and data science.</p>
   </div>
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
