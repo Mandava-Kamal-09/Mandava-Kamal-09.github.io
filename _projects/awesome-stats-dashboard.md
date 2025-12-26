@@ -14,24 +14,27 @@ The **Awesome Statistics Dashboard** is an interactive web application built wit
 
 ## Features
 
-- **Multiple Regression Models**: Linear (OLS), Logistic (Binary), and Poisson (Count Data)
-- **Built-in Datasets**: Cars93 (MASS), Penguins (palmerpenguins), Boston (MASS)
-- **Custom Data Upload**: Import your own CSV files for analysis
-- **Diagnostic Suite**: Residual plots, VIF analysis, Cook's Distance, leverage plots
-- **Model Selection**: Stepwise AIC, BIC, and Adjusted R² comparisons
-- **Time Series Analysis**: ARIMA modeling with forecast generation
-- **ANOVA**: Group comparison for categorical predictors
+| Tab | Description |
+|-----|-------------|
+| **Data Summary** | Overview statistics and data structure |
+| **Pairwise Plots** | Correlation matrix and scatterplot grid |
+| **Model Results** | Coefficients, p-values, R² statistics |
+| **Model Selection** | Stepwise AIC/BIC for variable selection |
+| **Diagnostics** | Residual plots, VIF, Cook's Distance |
+| **Group Comparison** | ANOVA for categorical predictors |
+| **Time Series** | ARIMA modeling and forecasting |
+| **Prediction** | Generate predictions from fitted models |
 
 ## Methodology
 
-The dashboard applies rigorous regression diagnostics following best practices taught by **Dr. Chad Cook** at the University of Central Oklahoma. Key diagnostic checks include:
+The dashboard applies rigorous regression techniques following best practices taught by **Dr. Tyler Cook** at the University of Central Oklahoma. Key diagnostic checks include:
 
-- **Variance Inflation Factor (VIF)** for multicollinearity detection
-- **Cook's Distance** for influential observation identification
-- **Box-Cox transformations** for response variable normalization
-- **Stepwise selection** for parsimonious model building
+- **Variance Inflation Factor (VIF)**
+- **Cook's Distance**
+- **Box-Cox transformations**
+- **Stepwise selection**
 
-The Shiny visualization framework was developed under the mentorship of **Dr. Tyler Laverty**, leveraging the `bslib` package for a modern, responsive UI.
+The Shiny visualization framework and visualization practices was developed by following best practices taught by **Dr. Sean Laverty**.
 
 ## Technical Details
 

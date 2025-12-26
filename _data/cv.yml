@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: M.S. Data Science
-      institution: University of Central Oklahoma, Edmond, OK
+      institution: University of Central Oklahoma, Edmond, OK, USA
       year: Aug 2024 - May 2026
     - title: B.Tech Biotechnology
       institution: Lovely Professional University, Jalandhar, Punjab, India
@@ -37,7 +37,7 @@
       institution: TT Consultants
       year: July 2023 - July 2024
       description:
-        - Analyzed clinical-trial datasets on NMIBC to identify trends for performance evaluation
+        - Analyzed clinical-trial datasets on NMIBC to identify trends for drugs performance evaluation
     - title: Independent STEM Tutor
       institution: Course Hero
       year: Winter 2023 - Present

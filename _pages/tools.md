@@ -9,7 +9,10 @@ nav_order: 3
 
 ## Awesome Statistics Dashboard
 
-An interactive R Shiny app for end-to-end statistical analysis—from exploratory data visualization to regression diagnostics and time series forecasting. Built during my UCO graduate studies to make analysis efficient and accessible.
+A comprehensive R Shiny Dashboard for statistical modeling and diagnostics. Features include GLM regression (Linear/Logistic/Poisson), automated variable selection, Box-Cox transformation, diagnostic testing, and time series forecasting. Designed to make rigorous statistical analysis efficient and reproducible. 
+
+Scroll to the bottom to access the tool and quick start guide
+
 
 <div class="embed-responsive" style="position: relative; width: 100vw; max-width: calc(100vw - 40px); height: 900px; border: 1px solid var(--global-divider-color); border-radius: 8px; overflow: hidden; margin: 1.5rem 0; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);">
   <iframe 
@@ -61,11 +64,9 @@ Or upload your own **CSV file** for custom analysis.
 ### 4. Pro Tips
 
 - Use the **Box-Cox transformation** button to optimize your response variable's distribution
-- Check **VIF values** in Diagnostics—values > 5 suggest multicollinearity
+- Check **VIF values** in Diagnostics—values > 10 suggest multicollinearity
 - **Cook's Distance** helps identify influential outliers that may skew your model
 
 ---
-
-*Built with R Shiny, bslib, and deployed on shinyapps.io*
 
 
