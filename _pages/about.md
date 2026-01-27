@@ -26,5 +26,3 @@ Methodologically, I integrate discrete event simulation, deep learning (PyTorch)
 ## Current Focus
 
 **Currently:** Integrating Michaelis–Menten enzyme kinetics into FibriNet to improve predictive accuracy for whole-clot degradation.
-
-**Upcoming:** Presenting "Dynamical Degradation of Fibrin Networks" at Dynamics Days US 2026 in Tucson, AZ.
