@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-building-the-awesome-statistics-dashboard",
+        },{id: "post-firefly-synchronization-dashboard",
+        
+          title: "Firefly Synchronization Dashboard",
+        
+        description: "An interactive tool for exploring mathematical models of firefly synchronization, inspired by the research of Dr. Orit Peleg and a talk by Dr. Daniel Abrams at Dynamics Days US 2026.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/firefly-synchronization-dashboard/";
+          
+        },
+      },{id: "post-building-the-awesome-statistics-dashboard",
         
           title: "Building the Awesome Statistics Dashboard",
         
