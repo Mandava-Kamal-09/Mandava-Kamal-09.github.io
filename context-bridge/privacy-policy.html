@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context Bridge - Privacy Policy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 3px solid #00bcd4;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #00838f;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: #e0f7fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #00bcd4;
+        }
+        .highlight strong {
+            color: #006064;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #00838f;
+            color: white;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .summary-box {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 30px 0;
+        }
+        .summary-box h3 {
+            color: #00bcd4;
+            margin-top: 0;
+        }
+        .summary-box td {
+            border-color: #444;
+            color: #fff;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="date">Last Updated: January 29, 2026</p>
+
+        <div class="highlight">
+            <strong>Key Points:</strong>
+            <ul style="margin-top: 10px;">
+                <li>All data is stored <strong>locally</strong> on your device</li>
+                <li>All data is <strong>encrypted</strong> with your passphrase</li>
+                <li><strong>No data is transmitted</strong> to external servers</li>
+                <li><strong>No analytics or tracking</strong> is performed</li>
+            </ul>
+        </div>
+
+        <h2>Overview</h2>
+        <p>Context Bridge is a browser extension that helps users transfer conversation context between AI chat platforms. This privacy policy explains what data the extension accesses, how it's handled, and your rights.</p>
+
+        <h2>Data Collection</h2>
+
+        <h3>What We Access</h3>
+        <p>Context Bridge accesses the following data <strong>only when you explicitly click "Capture Context"</strong>:</p>
+
+        <table>
+            <tr>
+                <th>Data Type</th>
+                <th>Purpose</th>
+                <th>Storage</th>
+            </tr>
+            <tr>
+                <td>Conversation text</td>
+                <td>Transfer between AI platforms</td>
+                <td>Local, encrypted</td>
+            </tr>
+            <tr>
+                <td>Platform URL</td>
+                <td>Identify source platform</td>
+                <td>Local, encrypted</td>
+            </tr>
+            <tr>
+                <td>Timestamp</td>
+                <td>Organize saved contexts</td>
+                <td>Local, encrypted</td>
+            </tr>
+        </table>
+
+        <h3>What We Do NOT Collect</h3>
+        <ul>
+            <li>Personal account information</li>
+            <li>Login credentials</li>
+            <li>Browsing history</li>
+            <li>Usage analytics</li>
+            <li>Telemetry data</li>
+            <li>Cookies or session tokens</li>
+        </ul>
+
+        <h2>Data Storage</h2>
+
+        <h3>Local Storage Only</h3>
+        <p>All captured context is stored exclusively in your browser's local storage using Chrome's Storage API. Data never leaves your device unless you:</p>
+        <ul>
+            <li>Manually export it using the Export feature</li>
+            <li>Manually inject it into another AI platform</li>
+        </ul>
+
+        <h3>Encryption</h3>
+        <p>All stored data is encrypted using:</p>
+        <ul>
+            <li><strong>Algorithm:</strong> AES-256-GCM (authenticated encryption)</li>
+            <li><strong>Key Derivation:</strong> PBKDF2 with 100,000 iterations</li>
+            <li><strong>Salt:</strong> Unique random salt per encryption operation</li>
+        </ul>
+        <p>Your passphrase is never stored. Only a derived key hash is kept in session storage to verify subsequent access, and this is cleared when you close your browser.</p>
+
+        <h2>Data Sharing</h2>
+
+        <div class="highlight">
+            <strong>We Do Not Share Data</strong>
+            <p style="margin-top: 10px; margin-bottom: 0;">Context Bridge does not transmit data to any servers, share data with third parties, use data for advertising, or sell or monetize user data in any way.</p>
+        </div>
+
+        <h2>Permissions</h2>
+
+        <table>
+            <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td>storage</td>
+                <td>Save encrypted contexts locally</td>
+            </tr>
+            <tr>
+                <td>activeTab</td>
+                <td>Read conversation from current tab when capturing</td>
+            </tr>
+            <tr>
+                <td>scripting</td>
+                <td>Inject content script for capture/inject functionality</td>
+            </tr>
+            <tr>
+                <td>Host permissions</td>
+                <td>Access specific AI platform domains only</td>
+            </tr>
+        </table>
+
+        <h2>Your Rights</h2>
+
+        <h3>Access Your Data</h3>
+        <ul>
+            <li>View all saved contexts through the extension popup</li>
+            <li>Export your data at any time using the Export feature</li>
+        </ul>
+
+        <h3>Delete Your Data</h3>
+        <ul>
+            <li>Delete individual contexts from the popup</li>
+            <li>Click "Clear All Data" to permanently delete everything</li>
+            <li>Uninstalling the extension removes all stored data</li>
+        </ul>
+
+        <h2>Security Measures</h2>
+        <ul>
+            <li><strong>Encryption at Rest:</strong> All data encrypted with AES-256-GCM</li>
+            <li><strong>No Network Requests:</strong> Extension makes no external API calls</li>
+            <li><strong>Session Isolation:</strong> Encryption keys cleared on browser close</li>
+            <li><strong>Minimal Permissions:</strong> Only essential permissions requested</li>
+            <li><strong>Open Source:</strong> Code available for security audit</li>
+        </ul>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy to reflect changes in the extension or legal requirements. Significant changes will be noted in the extension update notes.</p>
+
+        <div class="summary-box">
+            <h3>Quick Summary</h3>
+            <table>
+                <tr>
+                    <td>Is my data sent to servers?</td>
+                    <td><strong>No</strong> - all local</td>
+                </tr>
+                <tr>
+                    <td>Is my data encrypted?</td>
+                    <td><strong>Yes</strong> - AES-256-GCM</td>
+                </tr>
+                <tr>
+                    <td>Can you see my data?</td>
+                    <td><strong>No</strong> - we have no access</td>
+                </tr>
+                <tr>
+                    <td>Is there tracking/analytics?</td>
+                    <td><strong>No</strong> - none</td>
+                </tr>
+                <tr>
+                    <td>Can I delete my data?</td>
+                    <td><strong>Yes</strong> - anytime</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Contact</h2>
+        <p>For privacy-related questions or concerns, please contact through the extension's support channel.</p>
+
+        <footer>
+            <p>Context Bridge Extension &bull; Privacy Policy v2.0.0</p>
+            <p>This policy is effective as of January 29, 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
