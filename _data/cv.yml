@@ -69,6 +69,9 @@
 - title: Academic Projects
   type: time_table
   contents:
+    - title: Context Bridge
+      year: Jan 2026
+      description: Chrome extension implementing local cryptographic protocols for secure AI conversation portability across different LLM chat platforms.
     - title: Neural Network Regression
       year: In Progress
       description: Trained neural networks on 2 million simulated trials
