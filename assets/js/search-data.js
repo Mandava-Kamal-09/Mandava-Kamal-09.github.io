@@ -97,6 +97,11 @@ ninja.data = [{
           description: "Interactive R Shiny dashboard for regression diagnostics, model selection, and statistical visualization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/awesome-stats-dashboard/";
+            },},{id: "projects-context-bridge",
+          title: 'Context Bridge',
+          description: "Chrome extension for secure AI conversation portability with local AES-256-GCM encryption",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/context-bridge/";
             },},{id: "projects-fibrinet",
           title: 'FibriNet',
           description: "Agent-based computational model for simulating fibrinolysis using spring-mass network dynamics",
