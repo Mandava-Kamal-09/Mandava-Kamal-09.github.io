@@ -4,7 +4,7 @@ title: Context Bridge
 description: Chrome extension for secure AI conversation portability with local AES-256-GCM encryption
 img: assets/img/context-bridge-icon.png
 importance: 1
-category: work
+category: tools
 related_publications: false
 ---
 

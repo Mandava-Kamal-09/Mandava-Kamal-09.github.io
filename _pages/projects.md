@@ -5,7 +5,7 @@ permalink: /projects/
 description: Computational modeling and data analysis projects.
 nav: true
 nav_order: 4
-display_categories: [work]
+display_categories: [research]
 horizontal: false
 ---
 

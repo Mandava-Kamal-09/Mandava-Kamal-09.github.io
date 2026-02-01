@@ -4,7 +4,7 @@ title: Fibrinolysis Regression Analysis
 description: Statistical analysis identifying chemical factors affecting clot degradation rates
 img: 
 importance: 2
-category: work
+category: research
 github: https://github.com/Mandava-Kamal-09/Fibrnolysis-Regression
 ---
 

@@ -40,6 +40,38 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Featured Project -->
+    {% if page.featured_project %}
+      {% assign featured = site.projects | where: "slug", page.featured_project | first %}
+      {% if featured %}
+      <div class="featured-project mt-4">
+        <h2 class="mb-3">Active Research</h2>
+        <div class="card">
+          {% if featured.img %}
+          <img src="{{ featured.img | relative_url }}" class="card-img-top" alt="{{ featured.title }}">
+          {% endif %}
+          <div class="card-body">
+            <h3 class="card-title">
+              <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+            </h3>
+            <p class="mb-2">
+              <span class="badge bg-primary">NIH grant 2R15HL148842-02</span>
+              <span class="badge bg-success">Dynamics Days US 2026</span>
+              <span class="badge bg-info">WLC + Gillespie</span>
+            </p>
+            <p class="card-text">{{ featured.description }}</p>
+            <p class="card-text"><small><strong>Result:</strong> clearance time is non-monotonic in applied strain; fastest failure near ε ≈ 0.05.</small></p>
+            <div class="btn-group" role="group">
+              <a href="{{ featured.url | relative_url }}" class="btn btn-sm btn-outline-primary">View Project</a>
+              {% if featured.poster %}<a href="{{ featured.poster | relative_url }}" class="btn btn-sm btn-outline-secondary">Poster PDF</a>{% endif %}
+              {% if featured.github %}<a href="{{ featured.github }}" class="btn btn-sm btn-outline-dark">GitHub</a>{% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

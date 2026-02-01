@@ -4,7 +4,7 @@ title: Awesome Statistics Dashboard
 description: Interactive R Shiny dashboard for regression diagnostics, model selection, and statistical visualization
 img: 
 importance: 3
-category: work
+category: tools
 related_publications: false
 ---
 

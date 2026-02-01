@@ -1,24 +1,32 @@
 ---
 layout: page
 title: FibriNet
-description: Agent-based computational model for simulating fibrinolysis using spring-mass network dynamics
-img: 
+description: Mechanochemical simulation framework for fibrin clot degradation coupling WLC mechanics with Gillespie kinetics
+img: assets/img/fibrinet-network.png
+poster: assets/pdf/dynamics-days-2026-poster.pdf
 importance: 1
-category: work
+category: research
 github: https://github.com/Mandava-Kamal-09/Fibrinet
 ---
 
-FibriNet is an agent-based computational model that simulates the polymerization and network formation of fibrin fibers. The model represents fibrin networks using a spring-mass system approach.
+FibriNet is a mechanochemical simulation framework for fibrin clot degradation that couples nonlinear fiber mechanics (worm-like chain model) with stochastic cleavage events (Gillespie algorithm).
+
+This work is supported by the **NIH grant 2R15HL148842-02** under the supervision of Dr. Brittany Bannish at the University of Central Oklahoma.
+
+## Research Artifacts
+
+- **Poster** (Dynamics Days US 2026): [PDF]({{ page.poster | relative_url }})
+- **Key result**: Mean clearance time vs applied strain (70 sims: 7 strains × 10 realizations)
+- **Finding**: Connectivity loss occurs at ~20–50% lysis (percolation failure)
+- **Visualization**: Strain heatmap before/after applied loading
 
 ## Methodology
 
-The model represents fibrin networks as interconnected nodes connected by springs.
-
-This work is part of an NSF-funded project under the supervision of Dr. Brittany Bannish at the University of Central Oklahoma.
+The model represents fibrin networks as interconnected nodes connected by nonlinear springs following worm-like chain (WLC) mechanics. Enzyme cleavage is modeled as a stochastic process using the Gillespie algorithm, coupling mechanical stress with biochemical degradation.
 
 ## Technical Details
 
 - **Language**: Python
-- **Approach**: Agent-based modeling, discrete event simulation
-- **Application**: Modelling and simulation, Computational biology, biophysics, biomechanics
-
+- **Mechanics**: Worm-like chain (WLC) model
+- **Kinetics**: Gillespie algorithm for stochastic cleavage
+- **Application**: Computational biology, biophysics, biomechanics
