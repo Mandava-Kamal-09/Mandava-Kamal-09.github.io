@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-firefly-synchronization-dashboard",
+        },{id: "post-building-context-bridge",
+        
+          title: "Building Context Bridge",
+        
+        description: "How a simple frustration became my first published Chrome extension",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/building-context-bridge/";
+          
+        },
+      },{id: "post-firefly-synchronization-dashboard",
         
           title: "Firefly Synchronization Dashboard",
         
