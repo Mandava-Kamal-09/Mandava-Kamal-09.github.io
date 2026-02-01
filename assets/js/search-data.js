@@ -115,7 +115,7 @@ ninja.data = [{
               window.location.href = "/projects/context-bridge/";
             },},{id: "projects-fibrinet",
           title: 'FibriNet',
-          description: "Agent-based computational model for simulating fibrinolysis using spring-mass network dynamics",
+          description: "Mechanochemical simulation framework for fibrin clot degradation coupling WLC mechanics with Gillespie kinetics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fibrinet/";
             },},{id: "projects-fibrinolysis-regression-analysis",
