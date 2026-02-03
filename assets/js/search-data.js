@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-tools",
           title: "Tools",
-          description: "Interactive tools and dashboards for statistical analysis and dynamical systems.",
+          description: "Interactive dashboards and utilities.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tools/";
