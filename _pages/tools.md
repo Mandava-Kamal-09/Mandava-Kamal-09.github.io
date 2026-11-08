@@ -2,10 +2,12 @@
 layout: page
 title: Tools
 permalink: /tools/
-description: Interactive dashboards and utilities.
+description: Personal learning projects, interactive dashboards, and utilities.
 nav: false
 nav_order: 3
 ---
+
+Context Bridge and Firefly Synchronization are personal-interest projects. I use AI-assisted vibe coding to learn by building, exploring ideas, and iterating on working tools.
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
@@ -24,7 +26,7 @@ nav_order: 3
       <div class="card h-100 hoverable">
         <div class="card-body">
           <h3 class="card-title">Firefly Synchronization</h3>
-          <p class="card-text">Interactive simulation of Kuramoto oscillators, spatial coupling, and integrate-and-fire models.</p>
+          <p class="card-text">Personal learning project with interactive simulations of Kuramoto oscillators, spatial coupling, and integrate-and-fire models.</p>
           <p class="card-text"><small class="text-muted">R, Shiny, Plotly</small></p>
         </div>
       </div>
@@ -35,7 +37,7 @@ nav_order: 3
       <div class="card h-100 hoverable">
         <div class="card-body">
           <h3 class="card-title">Context Bridge</h3>
-          <p class="card-text">Chrome extension for transferring AI conversations between platforms with local AES-256-GCM encryption.</p>
+          <p class="card-text">Personal learning project: a Chrome extension for transferring AI conversations between platforms with local AES-256-GCM encryption.</p>
           <p class="card-text"><small class="text-muted">TypeScript, Chrome APIs</small></p>
         </div>
       </div>

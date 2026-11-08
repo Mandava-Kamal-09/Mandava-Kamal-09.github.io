@@ -8,7 +8,7 @@ profile:
 ---
 
 <div class="portfolio-bio" markdown="1">
-I'm a PhD student at the **University of Delaware**, conducting research under [Dr. Yixiang Deng](https://www.cis.udel.edu/people/faculty/yixiang-deng/). I also serve as a **Teaching Assistant** in the Department of Computer and Information Sciences.
+I'm a PhD student at the **University of Delaware**, conducting research under [Dr. Yixiang Deng](https://www.cis.udel.edu/people/faculty/yixiang-deng/). I also serve as a **Teaching Assistant for undergraduate courses** in the Department of Computer and Information Sciences.
 
 Previously, I studied data science at the University of Central Oklahoma, where I worked as a Graduate Research Assistant and Graduate Teaching Assistant.
 </div>
@@ -22,6 +22,20 @@ Previously, I studied data science at the University of Central Oklahoma, where 
   <li>Optimization</li>
   <li>Numerical analysis</li>
 </ul>
+</section>
+
+<section class="portfolio-section" aria-labelledby="personal-projects-heading" markdown="1">
+## Personal projects {#personal-projects-heading}
+
+Outside my academic work, I build things out of personal curiosity. These are learning projects in **vibe coding**: using AI assistance to experiment, test, and learn by doing.
+
+### [Context Bridge]({{ '/projects/context-bridge/' | relative_url }})
+
+A browser extension for moving AI conversations between platforms. Building it has been a hands-on learning curve in browser extensions and AI-assisted development.
+
+### [Firefly Synchronization]({{ '/tools/firefly/' | relative_url }})
+
+A personal exploration of synchronization through an interactive R Shiny dashboard, built to learn about simulation and visualization.
 </section>
 
 <section class="portfolio-section" aria-labelledby="selected-work-heading" markdown="1">

@@ -2,11 +2,13 @@
 layout: page
 title: Firefly Synchronization Dashboard
 permalink: /tools/firefly/
-description: An interactive R Shiny application for exploring mathematical models of firefly synchronization.
+description: A personal learning project exploring firefly synchronization through interactive R Shiny simulations.
 nav: false
 ---
 
-An interactive R Shiny application for exploring mathematical models of firefly synchronization. Features four biologically-inspired models (Kuramoto oscillators, spatial coupling, integrate-and-fire, and hybrid multi-species), real-time phase space visualization, chimera state detection, critical slowing down analysis, and bifurcation diagrams. Built to investigate collective behavior and phase transitions in coupled oscillator systems.
+Firefly Synchronization is a personal-interest learning project built through AI-assisted vibe coding. Building and iterating on the dashboard gives me a hands-on way to explore collective behavior and phase transitions in coupled oscillator systems.
+
+The interactive R Shiny application explores mathematical models of firefly synchronization. It features four biologically-inspired models (Kuramoto oscillators, spatial coupling, integrate-and-fire, and hybrid multi-species), real-time phase space visualization, chimera state detection, critical slowing down analysis, and bifurcation diagrams.
 
 <a href="https://kamaluco.shinyapps.io/Fireflies/" target="_blank" rel="noopener noreferrer">Open in new tab ↗</a>
 

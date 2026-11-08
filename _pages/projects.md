@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Computational modeling and data analysis projects.
+description: Past research projects and personal experiments in learning by building.
 nav: true
 nav_order: 4
-display_categories: [research]
+display_categories: [personal, research]
 horizontal: false
 ---
 
@@ -15,8 +15,11 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">{% if category == 'personal' %}Personal projects{% elsif category == 'research' %}Past research{% else %}{{ category }}{% endif %}</h2>
   </a>
+  {% if category == 'personal' %}
+    <p>Built out of personal interest, with AI-assisted vibe coding as a way to experiment and learn.</p>
+  {% endif %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

@@ -2,9 +2,11 @@
 layout: page
 title: Context Bridge
 permalink: /tools/context-bridge/
-description: Save and transfer AI conversations between platforms with local encryption.
+description: A personal learning project for transferring AI conversations between platforms with local encryption.
 nav: false
 ---
+
+Context Bridge is a personal-interest project built through AI-assisted vibe coding. I use it to learn by building a working browser extension and iterating on its design and behavior.
 
 <div style="text-align: center; margin-bottom: 2rem;">
   <img src="/assets/img/context-bridge-icon.png" alt="Context Bridge" style="width: 128px; height: 128px; margin-bottom: 1rem;">

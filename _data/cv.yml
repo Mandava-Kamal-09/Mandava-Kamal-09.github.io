@@ -19,17 +19,12 @@
     - title: M.S. Data Science
       institution: University of Central Oklahoma, Edmond, OK, USA
       year: Aug 2024 - May 2026
+      description:
+        - 'Research advisor: Dr. Brittany Bannish'
     - title: B.Tech Biotechnology
       institution: Lovely Professional University, Jalandhar, Punjab, India
       year: May 2020 - June 2024
       
-
-- title: Current Appointment
-  type: time_table
-  contents:
-    - title: Teaching Assistant
-      institution: Department of Computer and Information Sciences, University of Delaware
-      year: Current
 
 - title: Research Experience
   type: time_table
@@ -43,6 +38,7 @@
       institution: University of Central Oklahoma, Edmond, OK
       year: May 2025 - Aug 2026
       description:
+        - 'Research advisor: Dr. Brittany Bannish'
         - Developed computational models of fibrinolysis using agent-based simulation
         - Built neural network models to examine relationships between biochemical constraints and clot lysis times
         - Performed statistical analysis of chemical factors affecting fibrinolysis
@@ -51,6 +47,11 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Teaching Assistant (Undergraduate Courses)
+      institution: Department of Computer and Information Sciences, University of Delaware
+      year: Fall 2026 - Present
+      description:
+        - Supporting undergraduate teaching in the Department of Computer and Information Sciences.
     - title: Graduate Teaching Assistant
       institution: University of Central Oklahoma, Edmond, OK, USA
       year: Jan 2026 - Fall 2026
@@ -87,9 +88,6 @@
 - title: Academic Projects
   type: time_table
   contents:
-    - title: Context Bridge
-      year: Jan 2026
-      description: Chrome extension implementing local cryptographic protocols for secure AI conversation portability across different LLM chat platforms.
     - title: Neural Network Regression
       year: In Progress
       description: Trained neural networks on 2 million simulated trials
@@ -99,6 +97,21 @@
     - title: Awesome Statistics Dashboard
       year: Dec 2025
       description: A comprehensive R shiny Dashboard for Advanced Regression Analysis Techniques and Tools.
+
+- title: Personal Projects
+  type: time_table
+  contents:
+    - title: Context Bridge
+      year: Jan 2026
+      description:
+        - Built out of personal interest as a vibe coding project and a hands-on learning experience with browser extensions and AI conversation portability.
+        - A learning curve in building, testing, and iterating with AI assistance.
+        - '<a href="/projects/context-bridge/">Explore Context Bridge</a>'
+    - title: Firefly Synchronization
+      description:
+        - A personal-interest vibe coding project for learning about synchronization through an interactive R Shiny dashboard.
+        - An exploratory learning exercise in simulation and visualization.
+        - '<a href="/tools/firefly/">Explore the dashboard</a>'
 
 - title: Research Interests
   type: nested_list

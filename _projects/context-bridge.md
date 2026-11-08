@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Context Bridge
-description: Chrome extension for secure AI conversation portability with local AES-256-GCM encryption
-img: assets/img/context-bridge-icon.png
+description: A personal vibe coding project and a learning curve in building a browser extension for AI conversation portability.
 importance: 1
-category: tools
+category: personal
 related_publications: false
 ---
 
-A Chrome extension that captures conversation text from AI chat websites and injects it into other platforms. All data is encrypted locally using AES-256-GCM - nothing is transmitted to external servers.
+Context Bridge is a personal-interest project built through AI-assisted vibe coding: learning by building a working tool and iterating on it.
+
+The Chrome extension captures conversation text from AI chat websites and injects it into other platforms. All data is encrypted locally using AES-256-GCM - nothing is transmitted to external servers.
 
 **[Install from Chrome Web Store](https://chromewebstore.google.com/detail/context-bridge/aomkcodnddognjdihieojjijaficemde)** | **[Privacy Policy](/context-bridge/privacy-policy.html)**
 
