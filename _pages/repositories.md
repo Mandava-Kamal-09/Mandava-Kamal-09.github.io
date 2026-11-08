@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Selected computational modeling and data analysis repositories.
-nav: true
+nav: false
 nav_order: 4
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Research Insights
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true

@@ -23,8 +23,16 @@
       {% include newsletter.liquid %}
     {% endif %}
 
-    <div class="container">
-      {{ footer_contents }}
+    <div class="container portfolio-footer">
+      <nav aria-label="More about Kamal">
+        <a href="{{ '/publications/' | relative_url }}">Presentations</a>
+        <a href="{{ '/blog/' | relative_url }}">Writing</a>
+        <a href="{{ '/tools/' | relative_url }}">Tools</a>
+      </nav>
+      <div class="portfolio-credits">
+        <div>{{ footer_contents }}</div>
+        <div>Built with the help of Codex.</div>
+      </div>
     </div>
   </footer>
 {% endif %}

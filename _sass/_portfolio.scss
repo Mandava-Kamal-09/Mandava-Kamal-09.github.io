@@ -1,0 +1,148 @@
+// A quiet shared frame, with homepage-specific content styles.
+.portfolio-site {
+  --global-bg-color: #fafaf8;
+  --global-text-color: #242c30;
+  --global-text-color-light: #646d70;
+  --global-theme-color: #315f6c;
+  --global-hover-color: #214653;
+  --global-card-bg-color: #fafaf8;
+  --global-divider-color: #dedfda;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+
+  a { text-underline-offset: 0.2em; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 5px;
+  }
+  .navbar { padding: 1rem 0; opacity: 1; border: 0; position: relative; }
+  .navbar-brand { font-size: 0.95rem; font-weight: 500 !important; }
+  .navbar .nav-link { font-size: 0.9rem; }
+  #light-toggle { min-width: 44px; min-height: 44px; }
+  #light-toggle i { padding: 0; }
+  .container[role="main"] { margin-top: 3rem !important; }
+  .post-title { font-weight: 500; letter-spacing: -0.035em; }
+  .card { box-shadow: none; border: 1px solid var(--global-divider-color); border-radius: 4px; }
+  .cv .card {
+    border: 0;
+    border-top: 1px solid var(--global-divider-color);
+    border-radius: 0;
+    padding: 1.75rem 0 !important;
+  }
+  .cv .card-title { font-size: 1.25rem; }
+  .cv .badge { white-space: normal; }
+  .presentation-note {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+  .presentation-note h2 { font-size: 1.15rem; font-weight: 600; }
+  .presentation-note p { color: var(--global-text-color-light); }
+  footer.sticky-bottom {
+    margin-top: 4rem !important;
+    padding: 1.75rem 0 2rem;
+    border-top: 1px solid var(--global-divider-color);
+    background: transparent;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+  .portfolio-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .portfolio-footer nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+  .portfolio-footer a { color: var(--global-text-color-light); }
+  .portfolio-credits { font-size: 0.75rem; }
+  .portfolio-credits div { color: var(--global-text-color-light); }
+}
+
+html[data-theme="dark"] .portfolio-site {
+  --global-bg-color: #171c1f;
+  --global-text-color: #e2e6e5;
+  --global-text-color-light: #a4aeaf;
+  --global-theme-color: #a2cbd0;
+  --global-hover-color: #c4e2e5;
+  --global-card-bg-color: #171c1f;
+  --global-divider-color: #394246;
+}
+
+.portfolio-home {
+  .portfolio-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 120px;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+  h1 {
+    margin: 0 0 0.6rem;
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+  }
+  .portfolio-eyebrow {
+    margin-bottom: 0.9rem;
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .portfolio-position { margin: 0; color: var(--global-text-color-light); font-size: 0.95rem; }
+  .portfolio-portrait figure { margin: 0; }
+  .portfolio-portrait img {
+    display: block;
+    width: 120px;
+    height: 148px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .portfolio-bio { max-width: 43rem; }
+  .portfolio-bio p { margin-bottom: 1rem; }
+  .portfolio-section, .portfolio-contact {
+    margin-top: 2.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+  h2 { margin-bottom: 1rem; font-size: 1.15rem; font-weight: 600; letter-spacing: -0.02em; }
+  h3 { margin: 0 0 0.75rem; font-size: 1.3rem; font-weight: 500; }
+  .portfolio-interests {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem 1.5rem;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .portfolio-interests li::before { content: "·"; color: var(--global-theme-color); padding-right: 0.6rem; }
+  .portfolio-work { margin-top: 1.5rem; }
+  .portfolio-work .portfolio-eyebrow { font-size: 0.68rem; }
+  .portfolio-work p:last-child, .portfolio-more { font-size: 0.9rem; }
+  .portfolio-more { margin: 1.5rem 0 0; }
+  .portfolio-contact p { margin: 0; }
+}
+
+@media (max-width: 575px) {
+  .portfolio-site {
+    .container { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .container[role="main"] { margin-top: 1.75rem !important; }
+    .navbar { padding: 0.75rem 0; }
+    .navbar-collapse { padding-top: 1rem; }
+    .navbar-nav .nav-link { padding: 0.65rem 0; }
+    .portfolio-footer { display: block; }
+    .portfolio-footer nav { margin-bottom: 1rem; }
+  }
+  .portfolio-home {
+    .portfolio-intro { grid-template-columns: minmax(0, 1fr) 76px; gap: 1rem; }
+    h1 { font-size: 2.25rem; }
+    .portfolio-eyebrow { font-size: 0.65rem; }
+    .portfolio-position { font-size: 0.85rem; }
+    .portfolio-portrait img { width: 76px; height: 96px; }
+    .portfolio-interests { grid-template-columns: 1fr; }
+  }
+}

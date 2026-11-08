@@ -1,30 +1,43 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Master's Student in Data Science, University of Central Oklahoma
-
+subtitle: PhD student · University of Delaware
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false
-  address: >
-    <p>University of Central Oklahoma</p>
-    <p>Edmond, OK 73034</p>
-
-featured_project: fibrinet
-news: true
-selected_papers: false
-social: true
 ---
 
-I build computational models for **mechanochemical dynamics in fibrin networks**.
+<div class="portfolio-bio" markdown="1">
+I'm a PhD student at the **University of Delaware**, advised by [Dr. Yixiang Deng](https://www.cis.udel.edu/people/faculty/yixiang-deng/). I also serve as a **Teaching Assistant** in the Department of Computer and Information Sciences.
 
-My current research, **FibriNet**, is a mechanochemical simulation framework for fibrin clot degradation that couples nonlinear fiber mechanics (WLC) with stochastic cleavage events (Gillespie). This work was presented at **Dynamics Days US 2026** and is supported by the **NIH grant 2R15HL148842-02**.
+Previously, I studied data science at the University of Central Oklahoma, where I worked as a Graduate Research Assistant and Graduate Teaching Assistant.
+</div>
 
-## Research Trajectory
+<section class="portfolio-section" aria-labelledby="research-heading" markdown="1">
+## Research {#research-heading}
 
-Next steps for this work:
-- Extend simulations to **3D** network topology with heterogeneous crosslinking
-- Add **rate/viscosity** effects to study loading-history dependence
-- Validate model predictions against available experimental fibrinolysis/clearance measurements
+My research brings together deep learning, numerical analysis, and optimization to study biological dynamical systems.
+
+<ul class="portfolio-interests" aria-label="Research interests">
+  <li>Deep learning</li>
+  <li>Biological dynamical systems</li>
+  <li>Optimization</li>
+  <li>Numerical analysis</li>
+</ul>
+</section>
+
+<section class="portfolio-section" aria-labelledby="selected-work-heading" markdown="1">
+## Selected work {#selected-work-heading}
+
+<div class="portfolio-work" markdown="1">
+<p class="portfolio-eyebrow">Previous research · University of Central Oklahoma</p>
+
+### [FibriNet]({{ '/projects/fibrinet/' | relative_url }})
+
+A mechanochemical simulation framework for fibrin clot degradation, coupling nonlinear fiber mechanics with stochastic cleavage events. Presented at Dynamics Days US 2026.
+
+[Read about the project]({{ '/projects/fibrinet/' | relative_url }}) · [View code](https://github.com/Mandava-Kamal-09/Fibrinet)
+</div>
+
+<p class="portfolio-more"><a href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></p>
+</section>
