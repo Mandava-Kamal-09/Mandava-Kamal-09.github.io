@@ -8,15 +8,13 @@ profile:
 ---
 
 <div class="portfolio-bio" markdown="1">
-I'm a PhD student at the **University of Delaware**, advised by [Dr. Yixiang Deng](https://www.cis.udel.edu/people/faculty/yixiang-deng/). I also serve as a **Teaching Assistant** in the Department of Computer and Information Sciences.
+I'm a PhD student at the **University of Delaware**, conducting research under [Dr. Yixiang Deng](https://www.cis.udel.edu/people/faculty/yixiang-deng/). I also serve as a **Teaching Assistant** in the Department of Computer and Information Sciences.
 
 Previously, I studied data science at the University of Central Oklahoma, where I worked as a Graduate Research Assistant and Graduate Teaching Assistant.
 </div>
 
 <section class="portfolio-section" aria-labelledby="research-heading" markdown="1">
-## Research {#research-heading}
-
-My research brings together deep learning, numerical analysis, and optimization to study biological dynamical systems.
+## Research interests {#research-heading}
 
 <ul class="portfolio-interests" aria-label="Research interests">
   <li>Deep learning</li>

@@ -16,7 +16,6 @@
       year: Current
       description:
         - 'Advisor: <a href="https://www.cis.udel.edu/people/faculty/yixiang-deng/">Dr. Yixiang Deng</a>'
-        - Research at the intersection of deep learning, biological dynamical systems, optimization, and numerical analysis.
     - title: M.S. Data Science
       institution: University of Central Oklahoma, Edmond, OK, USA
       year: Aug 2024 - May 2026
@@ -32,12 +31,17 @@
       institution: Department of Computer and Information Sciences, University of Delaware
       year: Current
 
-- title: Previous Research Experience
+- title: Research Experience
   type: time_table
   contents:
+    - title: PhD Research
+      institution: University of Delaware, USA
+      year: Aug 2026 - Present
+      description:
+        - 'Conducting research under <a href="https://www.cis.udel.edu/people/faculty/yixiang-deng/">Dr. Yixiang Deng</a>.'
     - title: Graduate Research Assistant
       institution: University of Central Oklahoma, Edmond, OK
-      year: Previous
+      year: May 2025 - Aug 2026
       description:
         - Developed computational models of fibrinolysis using agent-based simulation
         - Built neural network models to examine relationships between biochemical constraints and clot lysis times
@@ -99,7 +103,7 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Current Research Focus
+    - title: Areas of Interest
       items:
         - Deep Learning
         - Biological Dynamical Systems

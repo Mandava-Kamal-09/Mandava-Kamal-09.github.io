@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Presentations
-description: Talks and posters from my research.
+description: Conference talks and poster presentations.
 nav: false
 nav_order: 2
 ---

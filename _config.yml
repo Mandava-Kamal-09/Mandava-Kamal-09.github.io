@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Research & Technical Insights # blog_name will be displayed in your blog page
-blog_description: A collection of summaries, technical notes, and updates regarding my work in computational biophysics and data science.
+blog_description: Writing, technical notes, and project updates.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
