@@ -18,3 +18,8 @@ nav_order: 2
 {% bibliography --group_by category %}
 
 </div>
+
+<section class="presentation-note" aria-labelledby="next-up-heading">
+  <h2 id="next-up-heading">Next up</h2>
+  <p>Abstract submitted. Acceptance pending. Inbox refresh rate: statistically significant.</p>
+</section>

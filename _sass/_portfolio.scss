@@ -32,6 +32,13 @@
   }
   .cv .card-title { font-size: 1.25rem; }
   .cv .badge { white-space: normal; }
+  .presentation-note {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+  .presentation-note h2 { font-size: 1.15rem; font-weight: 600; }
+  .presentation-note p { color: var(--global-text-color-light); }
   footer.sticky-bottom {
     margin-top: 4rem !important;
     padding: 1.75rem 0 2rem;
