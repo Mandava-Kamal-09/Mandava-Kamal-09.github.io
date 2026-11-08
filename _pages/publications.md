@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Research publications and presentations
+title: Presentations
+description: Talks and posters from my research.
 nav: false
 nav_order: 2
 ---
@@ -15,7 +15,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --group_by category %}
+{% bibliography --group_by year %}
 
 </div>
 
