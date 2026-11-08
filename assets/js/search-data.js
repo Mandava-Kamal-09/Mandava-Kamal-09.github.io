@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Computational modeling and data analysis projects.",
+          description: "Past research projects and personal experiments in learning by building.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -82,7 +82,7 @@ ninja.data = [{
               window.location.href = "/projects/awesome-stats-dashboard/";
             },},{id: "projects-context-bridge",
           title: 'Context Bridge',
-          description: "Chrome extension for secure AI conversation portability with local AES-256-GCM encryption",
+          description: "A personal vibe coding project and a learning curve in building a browser extension for AI conversation portability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/context-bridge/";
             },},{id: "projects-fibrinet",
@@ -95,6 +95,11 @@ ninja.data = [{
           description: "Statistical analysis identifying chemical factors affecting clot degradation rates",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fibrinolysis_regression/";
+            },},{id: "projects-firefly-synchronization",
+          title: 'Firefly Synchronization',
+          description: "A personal-interest vibe coding project for learning about synchronization, simulation, and visualization in R Shiny.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/firefly/";
             },},{
         id: 'social-github',
         title: 'GitHub',
