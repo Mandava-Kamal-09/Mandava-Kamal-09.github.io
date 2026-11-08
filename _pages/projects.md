@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Computational modeling and data analysis projects.
 nav: true
@@ -63,3 +63,5 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+<p class="mt-4">More code is available in my <a href="{{ '/repositories/' | relative_url }}">repositories</a>.</p>

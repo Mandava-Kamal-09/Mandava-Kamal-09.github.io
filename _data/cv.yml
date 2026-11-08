@@ -3,14 +3,20 @@
   contents:
     - name: Full Name
       value: Kamal Mandava
-    - name: Email
-      value: kmandava@uco.edu
+    - name: LinkedIn
+      value: '<a href="https://www.linkedin.com/in/kamal-mandava/">kamal-mandava</a>'
     - name: Languages
       value: English
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD Student
+      institution: University of Delaware, USA
+      year: Current
+      description:
+        - 'Advisor: <a href="https://www.cis.udel.edu/people/faculty/yixiang-deng/">Dr. Yixiang Deng</a>'
+        - Research at the intersection of deep learning, biological dynamical systems, optimization, and numerical analysis.
     - title: M.S. Data Science
       institution: University of Central Oklahoma, Edmond, OK, USA
       year: Aug 2024 - May 2026
@@ -19,25 +25,33 @@
       year: May 2020 - June 2024
       
 
-- title: Research Experience
+- title: Current Appointment
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Department of Computer and Information Sciences, University of Delaware
+      year: Current
+
+- title: Previous Research Experience
   type: time_table
   contents:
     - title: Graduate Research Assistant
       institution: University of Central Oklahoma, Edmond, OK
-      year: May 2025 - Present
+      year: Previous
       description:
-        - Developing computational models of fibrinolysis using agent-based simulation
-        - Building neural network models to examine relationships between biochemical constraints and clot lysis times
-        - Performing statistical analysis of chemical factors affecting fibrinolysis
+        - Developed computational models of fibrinolysis using agent-based simulation
+        - Built neural network models to examine relationships between biochemical constraints and clot lysis times
+        - Performed statistical analysis of chemical factors affecting fibrinolysis
+        - 'Earlier research interests: computational modeling of biological networks; complex systems (percolation and network dynamics); mechanochemical coupling in fibrin and soft matter; and agent-based simulation of stochastic processes.'
 
 - title: Work Experience
   type: time_table
   contents:
     - title: Graduate Teaching Assistant
       institution: University of Central Oklahoma, Edmond, OK, USA
-      year: Jan 2026 - Present
+      year: Previous
       description:
-        - Assisting undergraduate students under the supervision of Dr. Li
+        - Assisted undergraduate students under the supervision of Dr. Li
         - 'Subjects: Discrete Structures, Algorithms and Advanced Data Structures'
     - title: Market Research Analyst
       institution: TT Consultants
@@ -85,9 +99,9 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Research Focus
+    - title: Current Research Focus
       items:
-        - Computational modeling of biological networks
-        - Complex systems (percolation, network dynamics)
-        - Mechanochemical coupling in fibrin and soft matter
-        - Agent-based simulation of stochastic processes
+        - Deep Learning
+        - Biological Dynamical Systems
+        - Optimization
+        - Numerical Analysis

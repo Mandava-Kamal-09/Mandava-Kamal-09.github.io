@@ -3,7 +3,7 @@ layout: page
 title: Tools
 permalink: /tools/
 description: Interactive dashboards and utilities.
-nav: true
+nav: false
 nav_order: 3
 ---
 
